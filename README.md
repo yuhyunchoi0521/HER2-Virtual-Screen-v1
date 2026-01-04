@@ -5,7 +5,7 @@
 This project implements a virtual screening workflow for drug discovery using Python. It identifies potential lead compounds for **HER2-targeted therapies** (relevant in breast cancer research) by fetching real-world data from the **ChEMBL database** and applying pharmacokinetic filters.
 
 ## Scientific Framework: Lipinski’s Rule of Five
-To assess the "drug-likeness" of molecules, this pipeline applies **Lipinski's Rule of Five**. This rule is a "rule of thumb" used to evaluate if a chemical compound has properties that would make it a likely orally active drug in humans.
+To assess the "drug-likeness" of molecules, this pipeline applies **Lipinski's Rule of Five**. This rule is used to evaluate if a chemical compound has properties that would make it a likely orally active drug in humans.
 
 **The Criteria used in this script:**
 * **Molecular Weight (MW):** ≤ 500 Da
